@@ -16,8 +16,8 @@
 2. setup datasets
 
 ```bash
-chmod +x ./scripts/setup_datasets
-./scripts/setup_datasets
+chmod +x ./scripts/setup_datasets.sh
+./scripts/setup_datasets.sh
 ```
 
 3. train true classifiers
@@ -66,6 +66,7 @@ To run baselines, install CARLA from https://github.com/MartinPawel/Probabilisti
 - HELOC: [Source](https://www.kaggle.com/datasets/averkiyoliabev/home-equity-line-of-creditheloc/data)
 
 ### Citation
+
 If you use this work, please cite:
 
 ```bibtex
@@ -78,6 +79,7 @@ year={2025},
 url={https://openreview.net/forum?id=NtwFghsJne}
 }
 ```
+
 ## Contact
 
 Prateek Garg ([prateekg@iitb.ac.in](prateekg@iitb.ac.in))
